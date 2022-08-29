@@ -6,11 +6,12 @@ public class DiceTest
 	{
 		Dicee obj = new Dicee();
 		
+		
+		
 		EasyReader kb = new EasyReader();
 		System.out.println("How many times do u want to roll?");
 		
 		int rolls = kb.readInt();
-		
 		
 		
 		System.out.println("Let's process the request.........");
